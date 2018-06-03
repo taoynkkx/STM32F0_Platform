@@ -4,4 +4,5 @@ Record=SheetSymbol|SourceDocument=STM32F072_Platform.SchDoc|Designator=CAN|SchDe
 Record=SheetSymbol|SourceDocument=STM32F072_Platform.SchDoc|Designator=EEPROM|SchDesignator=EEPROM|FileName=AT24C.SchDoc|SymbolType=Normal|RawFileName=AT24C.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=STM32F072_Platform.SchDoc|Designator=Flash|SchDesignator=Flash|FileName=W25Q128.SchDoc|SymbolType=Normal|RawFileName=W25Q128.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=STM32F072_Platform.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=STM32F072.SchDoc|SymbolType=Normal|RawFileName=STM32F072.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=STM32F072_Platform.SchDoc|Designator=USB|SchDesignator=USB|FileName=USB.SchDoc|SymbolType=Normal|RawFileName=USB.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=TopLevelDocument|FileName=STM32F072_Platform.SchDoc
