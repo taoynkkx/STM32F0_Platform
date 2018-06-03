@@ -8,7 +8,7 @@ This project begins with designing a simple development board with the chip STM3
 - 2 potentiometers (@ ADC_IN8/9)
 - 2 crystals: 12MHz, 32.768KHz
 - Cell battery
-- SPI Flash (W25Q128 @ SPI1)
+- TF Card (@ SPI1)
 - EEPROM (AT24C256 @ IIC1)
 - USB-UART converter (PL2303 @ USART1)
 - LIN transceiver (TJA1020 @ USART2)
