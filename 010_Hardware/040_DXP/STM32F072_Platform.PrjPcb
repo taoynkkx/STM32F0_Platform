@@ -206,6 +206,22 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document12]
+DocumentPath=Buttons.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [PCBConfiguration1]
 ReleaseItemId=
 CurrentRevision=
@@ -224,7 +240,7 @@ AddNetsInformation=-1
 AddNetPins=-1
 AddNetNetLabels=-1
 AddNetPorts=-1
-ExportBOM=0
+ExportBOM=-1
 TemplateFilename=
 TemplateStoreRelative=-1
 PCB_PrintColor=0
