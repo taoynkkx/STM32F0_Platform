@@ -16,7 +16,8 @@ This project begins with designing a simple development board with the chip STM3
 - CAN transceiver (TJA1050 @ CAN)
 - USB connector ( @ DP+DM)
 - SW debug ports (SWDIO+SWCLK)
-- some LEDs
+- 4 LEDs, with PWM duty control
+- 18B20
 - not used PINs will be left with connectors
 
 ## With these the following features can supported
