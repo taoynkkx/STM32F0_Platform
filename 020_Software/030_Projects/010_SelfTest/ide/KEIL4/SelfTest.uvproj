@@ -398,10 +398,22 @@
               <FileType>1</FileType>
               <FilePath>..\..\src\cfg\taskScheduler_cfg.c</FilePath>
             </File>
+            <File>
+              <FileName>xio_cfg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\src\cfg\xio_cfg.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>lib</GroupName>
+          <Files>
+            <File>
+              <FileName>xio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\040_Libraries\xprintf\src\xio.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>lib/TaskScheduler</GroupName>
