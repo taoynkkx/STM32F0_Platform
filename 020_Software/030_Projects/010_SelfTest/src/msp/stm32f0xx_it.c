@@ -40,6 +40,9 @@
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
+
+unsigned long tick = 0;
+
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
 
@@ -94,6 +97,7 @@ void PendSV_Handler(void)
   */
 void SysTick_Handler(void)
 {
+  tick++;
   tasch_event_tickUp();
 }
 
