@@ -44,7 +44,7 @@
 ### ADS-LD Output File: '..\..\out\SelfTest.axf'
 ### ADS-LD Command File: '..\..\out\SelfTest.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '..\..\out\SelfTest.lnp', Handle=0x000005A4
+### Creating CmdFile '..\..\out\SelfTest.lnp', Handle=0x000001F8
 ### Writing '.lnp' file
 ### ADS-LD Command file '..\..\out\SelfTest.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
