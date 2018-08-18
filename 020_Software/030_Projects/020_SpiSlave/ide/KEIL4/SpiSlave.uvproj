@@ -588,6 +588,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\src\msp\mDIO.c</FilePath>
             </File>
+            <File>
+              <FileName>mSPI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\src\msp\mSPI.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
