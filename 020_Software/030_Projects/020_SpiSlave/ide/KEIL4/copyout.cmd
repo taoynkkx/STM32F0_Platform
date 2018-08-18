@@ -1,0 +1,1 @@
+copy tmp\SpiSlave.* ..\..\out

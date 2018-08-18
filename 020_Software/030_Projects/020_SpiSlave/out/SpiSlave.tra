@@ -1,0 +1,53 @@
+*** Creating Trace Output File '.\tmp\SpiSlave.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\tmp\stm32f0xx_conf.o"'
+### List of Objects: adding '".\tmp\taskscheduler_cfg.o"'
+### List of Objects: adding '".\tmp\xio_cfg.o"'
+### List of Objects: adding '".\tmp\xio.o"'
+### List of Objects: adding '".\tmp\taskscheduler.o"'
+### List of Objects: adding '".\tmp\startup_stm32f072.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_adc.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_can.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_cec.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_comp.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_crc.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_crs.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_dac.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_dbgmcu.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_dma.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_exti.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_flash.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_gpio.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_i2c.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_iwdg.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_misc.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_pwr.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_rcc.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_rtc.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_spi.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_syscfg.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_tim.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_usart.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_wwdg.o"'
+### List of Objects: adding '".\tmp\bsp.o"'
+### List of Objects: adding '".\tmp\stm32f0xx_it.o"'
+### List of Objects: adding '".\tmp\system_stm32f0xx.o"'
+### List of Objects: adding '".\tmp\msp.o"'
+### List of Objects: adding '".\tmp\mdio.o"'
+### List of Objects: adding '".\tmp\main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\tmp\stm32f0xx_conf.o" ".\tmp\taskscheduler_cfg.o" ".\tmp\xio_cfg.o" ".\tmp\xio.o" ".\tmp\taskscheduler.o" ".\tmp\startup_stm32f072.o" ".\tmp\stm32f0xx_adc.o" ".\tmp\stm32f0xx_can.o" ".\tmp\stm32f0xx_cec.o" ".\tmp\stm32f0xx_comp.o" ".\tmp\stm32f0xx_crc.o" ".\tmp\stm32f0xx_crs.o" ".\tmp\stm32f0xx_dac.o" ".\tmp\stm32f0xx_dbgmcu.o" ".\tmp\stm32f0xx_dma.o" ".\tmp\stm32f0xx_exti.o" ".\tmp\stm32f0xx_flash.o" ".\tmp\stm32f0xx_gpio.o" ".\tmp\stm32f0xx_i2c.o" ".\tmp\stm32f0xx_iwdg.o" ".\tmp\stm32f0xx_misc.o" ".\tmp\stm32f0xx_pwr.o" ".\tmp\stm32f0xx_rcc.o" ".\tmp\stm32f0xx_rtc.o" ".\tmp\stm32f0xx_spi.o" ".\tmp\stm32f0xx_syscfg.o" ".\tmp\stm32f0xx_tim.o" ".\tmp\stm32f0xx_usart.o" ".\tmp\stm32f0xx_wwdg.o" ".\tmp\bsp.o" ".\tmp\stm32f0xx_it.o" ".\tmp\system_stm32f0xx.o" ".\tmp\msp.o" ".\tmp\mdio.o" ".\tmp\main.o" --library_type=microlib --strict --scatter ".\tmp\SpiSlave.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\tmp\SpiSlave.map" -o ".\tmp\SpiSlave.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\tmp\SpiSlave.axf'
+### ADS-LD Command File: '.\tmp\SpiSlave.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\tmp\SpiSlave.lnp', Handle=0x0000079C
+### Writing '.lnp' file
+### ADS-LD Command file '.\tmp\SpiSlave.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
