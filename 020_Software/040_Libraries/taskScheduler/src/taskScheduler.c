@@ -55,6 +55,9 @@ void tasch_init(void)
   */
 void tasch_main(void)
 {
+  // init tasks
+  tasch_cfg_init();
+
   for(;;)
   {
     // if tick is updated
