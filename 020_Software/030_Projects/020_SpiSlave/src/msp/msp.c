@@ -1,6 +1,7 @@
 #include "msp.h"
 #include "mDIO.h"
 #include "stm32f0xx.h"
+#include "mSPI.h"
 
 void msp_xioSend(char c)
 {
@@ -96,5 +97,6 @@ void msp_init(void)
   mDIO_init();
   msp_xioInit();
   msp_tickInit();
+  mSPI_masterInit();
 }
 

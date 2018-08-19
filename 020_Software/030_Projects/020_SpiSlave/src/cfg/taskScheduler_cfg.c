@@ -5,6 +5,7 @@
 
 #include "../msp/mDIO.h"
 #include "../msp/msp.h"
+#include "../msp/mSPI.h"
 
 extern unsigned long tick;
 
@@ -12,6 +13,9 @@ void task_128ms(void)
 {
   mDIO_setDigitalOutput(DO_PB12, DO_CMD_TOGGLE);
   xprintf("%d\t7\n", tick);
+  mSPI_masterSendByteBlocking(0x55);
+  mSPI_masterSendByteBlocking(tick);
+  mSPI_masterSendByteBlocking(0xAA);
 }
 
 void task_256ms(void)
