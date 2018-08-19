@@ -25,15 +25,21 @@ void task_idle(void)
 #endif
 }
 
+void task_2ms(void)
+{
+  extern int spiRxWaiting;
+  if( spiRxWaiting>0 ) spiRxWaiting--;
+}
+
 void task_128ms(void)
 {
   mDIO_setDigitalOutput(DO_PB12, DO_CMD_TOGGLE);
   xprintf("%d\t7\n", tick);
 #ifdef SPI_MASTER
   mSPI_masterSendByteBlocking(0xAA);
-  mSPI_masterSendByteBlocking(0xCC);
-  mSPI_masterSendByteBlocking(0xF0);
-  mSPI_masterSendByteBlocking(tick);
+//  mSPI_masterSendByteBlocking(0xCC);
+//  mSPI_masterSendByteBlocking(0xF0);
+//  mSPI_masterSendByteBlocking(tick);
 #endif
 }
 

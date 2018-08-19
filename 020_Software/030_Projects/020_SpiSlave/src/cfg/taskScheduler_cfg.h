@@ -17,7 +17,7 @@
 
 #define tasch_cfg_init()       task_init()
 #define tasch_cfg_idle()       task_idle()
-#define tasch_cfg_taskX2()
+#define tasch_cfg_taskX2()     task_2ms()
 #define tasch_cfg_taskX4()
 #define tasch_cfg_taskX8()
 #define tasch_cfg_taskX16()
@@ -30,6 +30,7 @@
 
 extern void task_init(void);
 extern void task_idle(void);
+extern void task_2ms(void);
 extern void task_128ms(void);
 extern void task_256ms(void);
 extern void task_512ms(void);
