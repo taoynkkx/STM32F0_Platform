@@ -90,6 +90,9 @@ static void msp_tickInit(void)
    */
 
   SysTick_Config(SystemCoreClock/1000);
+
+  /* Configure the SysTick handler priority */
+  NVIC_SetPriority(SysTick_IRQn, 0x0);
 }
 
 void msp_init(void)
@@ -97,6 +100,5 @@ void msp_init(void)
   mDIO_init();
   msp_xioInit();
   msp_tickInit();
-  mSPI_masterInit();
 }
 

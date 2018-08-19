@@ -9,13 +9,32 @@
 
 extern unsigned long tick;
 
+void task_init(void)
+{
+#ifdef SPI_MASTER
+  mSPI_masterInit();
+#else
+  mSPI_slaveInit();
+#endif
+}
+
+void task_idle(void)
+{
+#ifndef SPI_MASTER
+  mSPI_slaveReceiveByte();
+#endif
+}
+
 void task_128ms(void)
 {
   mDIO_setDigitalOutput(DO_PB12, DO_CMD_TOGGLE);
   xprintf("%d\t7\n", tick);
-  mSPI_masterSendByteBlocking(0x55);
-  mSPI_masterSendByteBlocking(tick);
+#ifdef SPI_MASTER
   mSPI_masterSendByteBlocking(0xAA);
+  mSPI_masterSendByteBlocking(0xCC);
+  mSPI_masterSendByteBlocking(0xF0);
+  mSPI_masterSendByteBlocking(tick);
+#endif
 }
 
 void task_256ms(void)
@@ -26,13 +45,13 @@ void task_256ms(void)
 
 void task_512ms(void)
 {
-  mDIO_setDigitalOutput(DO_PB14, DO_CMD_TOGGLE);
+//  mDIO_setDigitalOutput(DO_PB14, DO_CMD_TOGGLE);
   xprintf("%d\t\t\t9\n", tick);
 }
 
 void task_1024ms(void)
 {
-  mDIO_setDigitalOutput(DO_PB15, DO_CMD_TOGGLE);
+//  mDIO_setDigitalOutput(DO_PB15, DO_CMD_TOGGLE);
   xprintf("%d\t\t\t\tA\n", tick);
 }
 

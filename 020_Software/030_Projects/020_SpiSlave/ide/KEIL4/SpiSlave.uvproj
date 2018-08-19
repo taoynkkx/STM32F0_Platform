@@ -343,7 +343,7 @@
             <uThumb>0</uThumb>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_STDPERIPH_DRIVER, STM32F072</Define>
+              <Define>USE_STDPERIPH_DRIVER, STM32F072, SPI_MAST</Define>
               <Undefine></Undefine>
               <IncludePath>..\..\src;..\..\src\cfg;..\..\..\..\040_Libraries;..\..\..\..\040_Libraries\STM32F0xx_StdPeriph_Driver\inc;..\..\..\..\040_Libraries\CMSIS\Include;..\..\..\..\040_Libraries\CMSIS\Device\ST\STM32F0xx\Include</IncludePath>
             </VariousControls>

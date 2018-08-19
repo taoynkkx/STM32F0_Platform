@@ -15,7 +15,8 @@
 #ifndef  __TASK_SCHEDULER_CFG_H
 #define  __TASK_SCHEDULER_CFG_H
 
-#define tasch_cfg_idle()
+#define tasch_cfg_init()       task_init()
+#define tasch_cfg_idle()       task_idle()
 #define tasch_cfg_taskX2()
 #define tasch_cfg_taskX4()
 #define tasch_cfg_taskX8()
@@ -27,6 +28,8 @@
 #define tasch_cfg_taskX512()   task_512ms()
 #define tasch_cfg_taskX1024()  task_1024ms()
 
+extern void task_init(void);
+extern void task_idle(void);
 extern void task_128ms(void);
 extern void task_256ms(void);
 extern void task_512ms(void);

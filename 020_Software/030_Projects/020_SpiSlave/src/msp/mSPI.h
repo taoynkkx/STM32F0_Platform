@@ -6,5 +6,6 @@ extern void mSPI_masterSendByteBlocking(unsigned char data);
 
 extern void mSPI_slaveInit(void);
 extern void mSPI_hook_slaveDataReceived(unsigned char data);
+extern void mSPI_slaveReceiveByte(void);
 
 #endif  //  __MSPI_H
