@@ -15,6 +15,7 @@
 #ifndef  __TASK_SCHEDULER_CFG_H
 #define  __TASK_SCHEDULER_CFG_H
 
+#define tasch_cfg_init()
 #define tasch_cfg_idle()
 #define tasch_cfg_taskX2()
 #define tasch_cfg_taskX4()
