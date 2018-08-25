@@ -1,0 +1,1 @@
+LINViewer is to view LIN communication on the bus.
