@@ -1,1 +1,4 @@
-tmp
+out
+lst
+*.dep
+*.bak
