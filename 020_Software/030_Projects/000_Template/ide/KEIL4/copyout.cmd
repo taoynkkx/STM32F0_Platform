@@ -1,0 +1,1 @@
+copy out\Template.* ..\..\out
